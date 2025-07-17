@@ -49,3 +49,41 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.text-color {
+  color: #37517e;
+  font-size: large;
+}
+.bgcolor {
+  background: #37517e;
+}
+.color {
+  color: #37517e;
+}
+.servicess-area {
+  padding-top: 3.5rem;
+}
+.for-hover :hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+.for-hover:hover h3 {
+  color: cyan;
+}
+Explain-card img {
+  transition: all 1s;
+}
+.Explain-card:hover img {
+  scale: 1.1;
+}
+
+.number {
+  position: relative;
+  z-index: 5666;
+}
+
+.Explain-card:hover .card-text {
+  transform: translateY(-10px);
+}
+.Explain-card .card-text {
+  transition: all 0.5s;
+}
